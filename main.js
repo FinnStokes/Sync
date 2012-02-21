@@ -1,5 +1,22 @@
 window.onload = function () {
-    console.log("loaded");
+    var canvas = jQuery('#game').get(0);
+    var stage = new Stage(canvas);
+    
+    var eventMan = event();
+    var timer = metronome({
+        'event': em,
+    });
+    
+    var rhythms = [];
+    rhythms.push(rhythm({
+        '': ,
+    });
+    
+    var player1 = controller({
+        'event': em,
+    });
+    
+
     var start;
     var sync = synchroniser({
         'leniency': 0.2,
