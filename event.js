@@ -1,4 +1,4 @@
-var event = function () {
+var eventManager = function () {
     var that, subscribers;
     
     that = {};
